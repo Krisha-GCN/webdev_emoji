@@ -1,0 +1,133 @@
+.head {
+    /*Positions the head relative to the body*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*Sets the color of the container and rounds the corners*/
+    background-color: #F2CF66;
+    border-radius: 50%;
+  
+    /*Sets the size of the container*/
+    width: 250px;
+    height: 260px;
+  }
+  
+  /* write your own CSS rules for the other parts, below! */
+  /* .origin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, 0%);
+    
+    background-color: black;
+    border-radius: 50%;
+
+    width: 10px;
+    height: 10px;
+  } */
+
+   .mouth {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%, -50%);
+
+    color: transparent;  
+    text-shadow: 0 0 0 yellow;
+
+    font-size: 60px;
+  } 
+
+  .mouthbottom {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%, 10%);
+
+    color: transparent;  
+    text-shadow: 0 0 0 yellow;
+
+    font-size: 60px;
+  } 
+
+  .eye1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-170%, -140%);
+    
+    background-color: white;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+
+
+  }
+
+  .eye2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(100%, -140%);
+    
+    background-color: white;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+  }
+
+  .pupil {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    
+    background-color: black;
+    border-radius: 50%;
+
+    width: 35px;
+    height: 40px;
+  }
+
+   .mouth {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    
+    background-color: black;
+    border-radius: 50%;
+
+    width: 40px;
+    height: 40px;
+  } */
+
+  /* .cookie {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 0%);
+  
+  background-color: burlywood;
+  border-radius: 50%;
+
+  width: 40px;
+  height: 40px;
+  }
+
+/* .tongue {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  
+  background-color: red;
+  border-radius: 50%;
+
+  width: 20px;
+  height: 20px;
+} */
